@@ -31,3 +31,22 @@ Visit the project here &rarr; [Cube](https://cube-ecommerce.vercel.app/)
 - Allow users to `view` their `orders` after checkout
 
 ## 💻 How the API works 
+#### A `Protected` route means a [JWT](https://jwt.io/) is used in a middleware to authorize the users actions 
+| Methods | Routes       | Protected | Action |
+| :---:   | :---:        | :---:     |:---:          |
+| `POST`  | /api/register  |  No       |  Create new user  |
+|`POST`| /api/login | No | Verify the user to login and create a JWT to authorize certain actions |
+|`GET`| /api/products | No | Get all products from database |
+| `GET`| /api/authorize | Yes | Used to verify JWT's |
+|`POST`| /api/carts | Yes | Add item to cart |
+|`GET`| /api/carts | Yes | Get all items that the user added to their cart |
+|`DELETE`| /api/carts | Yes | Delete item from cart |
+|`PUT`| /api/carts | Yes | Update the quantity of a specific item |
+| `POST` | /api/checkout | Yes| Create a stripe checkout session |
+| `POST` | /api/checkout/webhook | No| Verifies if payment succeeded and updates the database to be able to display the users orders|
+|`GET`| /api/orders | Yes | Get all of the users orders |
+|`POST`| /api/orders/products | No  | Get specifics on what exactly the user ordered |
+
+## Images
+
+
