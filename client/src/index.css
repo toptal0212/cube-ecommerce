@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	html,
+	body {
+		font-family: montserrat, sans-serif;
+		height: 100%;
+	}
+
+	.form-shadow {
+		box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.2);
+	}
+
+	.ninety-tri {
+		clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+	}
+
+	.path-background {
+		clip-path: polygon(100% 25%, 100% 28%, 0 88%, 0 85%);
+	}
+
+	.path-background-tri {
+		clip-path: polygon(100% 0, 0% 100%, 0 55%);
+	}
+
+	.filter-links {
+		position: relative;
+		top: 2px;
+		cursor: pointer;
+	}
+}
+
+.active {
+	color: #007094;
+}
+
+@layer components {
+	.mobile-link {
+		@apply h-[10%] w-full flex justify-center items-center hover:bg-lightishGray;
+	}
+	.hover-link {
+		@apply hover:bg-lightishGray p-2 rounded-md;
+	}
+	.icon-hover {
+		@apply hover:bg-lightishGray p-2 rounded-md;
+	}
+	.burger-line {
+		@apply w-6 h-[3px] bg-black my-1;
+	}
+	.qty-btn {
+		@apply text-2xl font-medium bg-lightGray w-8 rounded-full hover:bg-lightishGray;
+	}
+}
