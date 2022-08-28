@@ -18,6 +18,9 @@ Visit the project here &rarr; [Cube](https://cube-ecommerce.vercel.app/)
 | [React](https://reactjs.org/) | [Express](https://expressjs.com/)   | [PostgreSQL](https://www.postgresql.org)|
 |  [Tailwind](https://tailwindcss.com/)|[Stripe](https://stripe.com/)|          |         |
 
+## 📸 Preview
+![Screenshot (30)](https://user-images.githubusercontent.com/72290056/187064426-17063c88-542a-44d0-b11f-c477b961ed98.png)
+
 ## 🚀 Features
 
 - Allow users to `register` storing passwords as hashes using the [bcrypt](https://www.npmjs.com/package/bcrypt) library and verifying credentials before adding to database 
@@ -43,13 +46,12 @@ Visit the project here &rarr; [Cube](https://cube-ecommerce.vercel.app/)
 |`DELETE`| /api/carts | Yes | Delete item from cart |
 |`PUT`| /api/carts | Yes | Update the quantity of a specific item |
 | `POST` | /api/checkout | Yes| Create a stripe checkout session |
-| `POST` | /api/checkout/webhook | No| Verifies if payment succeeded and updates the database to be able to display the users orders|
+| `POST` | /api/checkout/webhook | No| Verifies if payment succeeded and updates the orders table in the database |
 |`GET`| /api/orders | Yes | Get all of the users orders |
 |`POST`| /api/orders/products | No  | Get specifics on what exactly the user ordered |
 
 ## 🖼️ Images
 
-![Screenshot (30)](https://user-images.githubusercontent.com/72290056/187064274-3ddf4848-04c2-4c9b-9cb8-ee8522d392c7.png)
 ![Screenshot (31)](https://user-images.githubusercontent.com/72290056/187064275-ab69cfea-d317-49be-9781-bfc952e2350c.png)
 ![Screenshot (32)](https://user-images.githubusercontent.com/72290056/187064279-30d02c54-db87-435a-aee4-f8f3d8447900.png)
 ![Screenshot (33)](https://user-images.githubusercontent.com/72290056/187064281-a4c93f7d-24c3-455c-bd86-df7cf8792e16.png)
