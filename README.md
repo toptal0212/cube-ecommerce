@@ -47,6 +47,12 @@ Visit the project here &rarr; [Cube](https://cube-ecommerce.vercel.app/)
 |`GET`| /api/orders | Yes | Get all of the users orders |
 |`POST`| /api/orders/products | No  | Get specifics on what exactly the user ordered |
 
-## Images
+## 🖼️ Images
 
-
+![Screenshot (30)](https://user-images.githubusercontent.com/72290056/187064274-3ddf4848-04c2-4c9b-9cb8-ee8522d392c7.png)
+![Screenshot (31)](https://user-images.githubusercontent.com/72290056/187064275-ab69cfea-d317-49be-9781-bfc952e2350c.png)
+![Screenshot (32)](https://user-images.githubusercontent.com/72290056/187064279-30d02c54-db87-435a-aee4-f8f3d8447900.png)
+![Screenshot (33)](https://user-images.githubusercontent.com/72290056/187064281-a4c93f7d-24c3-455c-bd86-df7cf8792e16.png)
+![Screenshot (34)](https://user-images.githubusercontent.com/72290056/187064284-f54bf13b-4a7f-48cb-985a-6309f93c0721.png)
+![Screenshot (35)](https://user-images.githubusercontent.com/72290056/187064286-9d0e1725-7416-4f73-bfc0-cfbb141a45a8.png)
+![Screenshot (36)](https://user-images.githubusercontent.com/72290056/187064289-8963b264-2682-42b2-91c2-17dd7aa9f0a7.png)
