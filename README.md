@@ -1,5 +1,5 @@
 # 🕋 Cube
-Ecommerce web application that authorizes users with [JWT's](https://jwt.io/) through certain API routes.
+Ecommerce web application that authorizes users with [JWT's](https://jwt.io/) through certain API routes. 
 <br/>
 <br/>
 Visit the project here &rarr; [Cube](https://cube-ecommerce.vercel.app/)
@@ -16,7 +16,8 @@ Visit the project here &rarr; [Cube](https://cube-ecommerce.vercel.app/)
 | Frontend | Backend | Database |
 | :---:    | :---:   | :---:    | 
 | [React](https://reactjs.org/) | [Express](https://expressjs.com/)   | [PostgreSQL](https://www.postgresql.org)|
-|  [Tailwind](https://tailwindcss.com/)|[Stripe](https://stripe.com/)|          |         |
+|  [Tailwind](https://tailwindcss.com/)|[Stripe](https://stripe.com/)| [AWS RDS](https://aws.amazon.com/rds/)        |
+|[Vercel](https://vercel.com) | [Heroku](https://www.heroku.com)||
 
 ## 📸 Preview
 ![Screenshot (30)](https://user-images.githubusercontent.com/72290056/187064426-17063c88-542a-44d0-b11f-c477b961ed98.png)
