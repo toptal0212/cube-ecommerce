@@ -9,7 +9,7 @@ Visit the project here &rarr; [Cube](https://cube-ecommerce.vercel.app/)
   - Card number - `4242 4242 4242 4224`
   - MM/YY - `04/24`
   - CVC - `424` 
-  - All other parameters have `anything` as their value to have a valid checkout 
+  - All other parameters can have `anything` as their value to have a valid checkout 
 
 
 ## 🥞 Tech stack
