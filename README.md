@@ -35,7 +35,7 @@ Visit the project here &rarr; [Cube](https://cube-ecommerce.vercel.app/)
 - Allow users to `view` their `orders` after checkout
 
 ## 💻 How the API works 
-#### A `Protected` route means a [JWT](https://jwt.io/) is used in a middleware to authorize the users actions 
+#### A `Protected` route means a [JWT](https://jwt.io/) is used as the a middleware for a the route to authorize the users actions 
 | Methods | Routes       | Protected | Action |
 | :---:   | :---:        | :---:     |:---:          |
 | `POST`  | /api/register  |  No       |  Create new user  |
